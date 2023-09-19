@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.wrapper {
+    background-color: #FAF5EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    color: #692D55;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        background-color: #000;
+    }
+
+    .title {
+        color: #dcdcdc;
+        text-shadow: 0 0 10px #6A82FB,
+                     1px 1px 20px #6A82FB,
+                     5px 5px 40px #6A82FB,
+                     0px 0px 100px #000;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .subtitle {
+        color: #dcdcdc;
+        text-shadow: 0 0 10px #6A82FB,
+                     1px 1px 20px #6A82FB,
+                     5px 5px 40px #6A82FB,
+                     0px 0px 100px #000;
+    }
+}
